@@ -1,12 +1,5 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=7972485&assignment_repo_type=AssignmentRepo)
+
 # 02 Project - Reservationizr Application - Manage Reservations
-
-## Assessment details
-
-- [Level 5 Learning Outcomes](./docs/learning-outcomes-l5.md)
-- [Level 6 Learning Outcomes](./docs/learning-outcomes-l6.md)
-
----
 
 # Scenario
 
@@ -48,25 +41,6 @@ docker run --name 02-project-reservationizr-application-part-2-mongo_db \
 
 - Connect to MongoDB using [MongoDB Compass](https://www.mongodb.com/products/compass). Create a database named `mongo`, a collection named `restaurants`, and load data from the [data](./data) folder into the database.
 
-## Understand what already exists
-
-The previous developer has left you some code. Run the React Application and Express API, and navigate through the folder structures to understand what exists and where you need to write your code.
-
-Make sure you understand what API requests and responses you need to create. In particular, pay attention to the different status codes that are specified.
-
-Once you have everything up and running and have familiarised yourself with the codebase, you can complete the following customer stories.
-
-_Also note that the tests are mocking a user being signed in, the login user for your tests is `mock-user-id`. You can see this in [reservations.json](/data/reservations.json) file._
-
----
-
-# Architecture diagrams
-
-![architecture diagram](docs/software-architecture.jpg)
-
-![architecture diagram](docs/software-architecture-2.jpg)
-
----
 
 # API specification
 
@@ -78,12 +52,6 @@ To view the documentation for the API specification:
 4. Open the link displayed in your browser (it's automatically copied to your clipboard)
 
    ![api docs](docs/api-docs.png)
-
-## Load the API Specification in Insomnia
-
-You can automatically load all the available endpoints in Insomnia.
-
-Watch the [video tutorial](https://www.loom.com/share/dfaf8b47c6924f5ba04ce84dd1bdea1b), or follow the instructions below:
 
 1. Go to the Insomnia Dashboard
 2. Click the purple `Create` button
@@ -107,16 +75,6 @@ Watch the [video tutorial](https://www.loom.com/share/dfaf8b47c6924f5ba04ce84dd1
 - The route meets the API specification, and the automated API Specification test passes for this route
 - The code for the API is well tested with automated tests
 
-### Design brief
-
-![design](docs/design/design-restaurants-read-mobile-01.png)
-
-![design](docs/design/design-restaurants-read-mobile-02.png)
-
-![design](docs/design/design-restaurants-read-tablet.png)
-
----
-
 ## User Story #2 - View a single restaurant
 
 - **As a** restaurant connoisseur
@@ -131,12 +89,6 @@ Watch the [video tutorial](https://www.loom.com/share/dfaf8b47c6924f5ba04ce84dd1
 - The page matches the design and is responsive.
 - The route meets the API specification, and the automated API Specification test passes for this route.
 - The code for the API is well tested with automated tests. Tests include happy and negative test cases.
-
-### Design brief
-
-![design](docs/design/design-restaurant-read-mobile.png)
-
-![design](docs/design/design-restaurant-read-tablet.png)
 
 ---
 
@@ -162,22 +114,6 @@ Watch the [video tutorial](https://www.loom.com/share/dfaf8b47c6924f5ba04ce84dd1
 - The 'Make a reservation' form matches the design and is responsive.
   - **Note** Use [react-datepicker](https://github.com/Hacker0x01/react-datepicker) for the Date input
 
-### Design brief
-
-![design](docs/design/design-reservations-create-mobile-01.jpg)
-
-![design](docs/design/design-reservations-create-mobile-02.jpg)
-
-![design](docs/design/design-reservations-create-tablet-01.jpg)
-
-![design](docs/design/design-reservations-create-tablet-02.jpg)
-
-### Configure your GitHub repository for automated tests
-
-[Follow the tutorial](docs/github-secrets.md) to add Auth0 credentials to your Git repository. This will configure the API Specification tests that run in GitHub.
-
----
-
 ## User Story #4 - View all my reservations
 
 - **As a** restaurant connoisseur
@@ -194,15 +130,6 @@ Watch the [video tutorial](https://www.loom.com/share/dfaf8b47c6924f5ba04ce84dd1
 - The route meets the API specification, and the automated API Specification test passes for this route.
 - The code for the API is well tested with automated tests.
 
-### Design brief
-
-![design](docs/design/design-reservations-read-mobile.png)
-
-![design](docs/design/design-reservations-read-mobile-no-reservations.png)
-
-![design](docs/design/design-reservations-read-tablet.png)
-
----
 
 ## User Story #5 - View a single reservation
 
@@ -218,32 +145,3 @@ Watch the [video tutorial](https://www.loom.com/share/dfaf8b47c6924f5ba04ce84dd1
 - The page matches the design and is responsive.
 - The route meets the API specification, and the automated API Specification test passes for this route.
 - The code for the API is well tested with automated tests. Tests include happy and negative test cases.
-
-### Design brief
-
-![design](docs/design/design-reservation-read-mobile.png)
-
-![design](docs/design/design-reservation-read-not-found.png)
-
-![design](docs/design/design-reservation-read-tablet.png)
-
----
-
-## User Story #6 - Deploy your application
-
-- **As a** customer
-- **I want** to access Reservationizr on a public domain name
-- **So that** I can use the web application from anywhere
-
-**Acceptance criteria**
-
-- The website is publicly accessible on the internet
-- The website domain is added to [`website-domain.txt`](website-domain.txt)
-
----
-
-# Submit your Project
-
-- [ ] Commits are pushed to GitHub
-- [ ] Automated tests pass in GitHub
-- [ ] project is submitted in Google Classroom
