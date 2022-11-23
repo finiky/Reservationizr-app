@@ -5,10 +5,6 @@
 
 You are working for a new startup, Reservationizr. It allows customers to make reservations at any of their local restaurants from one place.
 
-The previous Software Engineer started building the application but was urgently re-assigned to a different part of the business. You need to complete the remaining user stories for the web application, following the documentation below.
-
-Your Tech Lead can support you if you need help understanding the requirements or are blocked with something in particular.
-
 ---
 
 # Getting started
